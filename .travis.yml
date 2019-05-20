@@ -3,6 +3,6 @@ node_js:
   - "8"
   
 before_install:
-  - npm -i yarn
+  - npm i yarn
   - export PATH="$HOME/.yarn/bin:$PATH"
   
