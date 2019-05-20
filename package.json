@@ -1,0 +1,53 @@
+{
+    "name": "express-mongoose-es6-rest-api",
+    "version": "2.0.0",
+    "description": "A Boilerplate application for building REST APIs using express, mongoose in ES6 with code coverage",
+    "author": "Kunal Kapadia <kunalkapadia12@gmail.com>",
+    "main": "index.js",
+    "private": false,
+    "engines": {
+        "node": ">=4.8.0",
+        "npm": ">=2.15.11",
+        "yarn": ">=0.20.3"
+    },
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:KunalKapadia/express-mongoose-es6-rest-api.git"
+    },
+    "keywords": [
+        "express",
+        "node",
+        "node.js",
+        "mongodb",
+        "mongoose",
+        "es6",
+        "mocha",
+        "istanbul",
+        "REST",
+        "API",
+        "boilerplate"
+    ],
+    "dependencies": {
+
+    },
+    "devDependencies": {
+
+    },
+    "license": "MIT",
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "babel": {
+        "presets": [
+            "es2015",
+            "stage-2"
+        ],
+        "plugins": [
+            "add-module-exports"
+        ]
+    }
+}
